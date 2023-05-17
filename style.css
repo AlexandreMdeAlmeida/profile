@@ -1,0 +1,89 @@
+body {
+  letter-spacing 2px;;
+  background-color:#212529;
+  font-family:'Roboto', monospace;
+  color: #ced4da;
+  font-size: 20px ;
+  font-weight: 300px;
+}
+
+.container {
+text-align: center;
+margin-left: 150px;
+margin-right: 150px;
+padding: 60px;
+}
+
+h1,h2,h3{
+  font-family: 'Roboto Mono', monospace;
+  font-size:30px;
+  line-height: 45px;
+}
+
+h1{
+ font-weight: bold;
+}
+
+#social{
+  color:white;
+  font-size: 18px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.my-description {
+  font-size: 24px;
+}
+
+ul,li,i {
+  color:#e76f51;
+  text-decoration: none;
+  display: inline-block;
+}
+
+i {
+  font-size: 50px
+}
+
+i:hover {
+  background-color:#212529;
+  border-radius: 50%;
+  transition: 0.8s ease
+}
+
+.card {
+  background: #495057;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+
+#picture {
+  width: 300px;
+  height: 285px;
+  border-radius: 100%;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+#orange-button {
+  width: 100px;
+  height: 50px;
+  background-color: #e76f51;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+#orange-button:hover {
+  background-color: white;
+  transition: 0.5s ease
+}
+
+.icons {
+  text-align: center;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
